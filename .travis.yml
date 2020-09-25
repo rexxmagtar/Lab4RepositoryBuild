@@ -6,6 +6,7 @@ before_install:
   - sudo apt-get -y install autoconf
   - sudo apt-get -y install automake
   - sudo apt-get install -y fuse
+  - sudo apt-get install -y libfuse3-dev
 jobs:
   include:
     - stage: build 
