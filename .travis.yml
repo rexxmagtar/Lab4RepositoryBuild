@@ -3,6 +3,7 @@ os: linux
 before_install:
   - sudo apt-get update
   - sudo apt-get -y install autotools-dev
+  - sudo apt-get -y install tree
   - sudo apt-get -y install autoconf
   - sudo apt-get -y install automake
   - sudo apt-get install -y fuse
