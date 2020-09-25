@@ -1,0 +1,10 @@
+language: c 
+os: linux
+jobs:
+  include:
+    - stage: build 
+      script:
+       - tar -xvf system1-1.0.tar.gz ./
+       - cd ./system1-1.0
+       - ./configure
+       - make
