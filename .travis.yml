@@ -16,4 +16,4 @@ jobs:
        - cd ./system1-1.0
        - ./configure
        - make
-       - ls system1-1.0
+       - tree
